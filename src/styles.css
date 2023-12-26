@@ -1,0 +1,167 @@
+/* Global Styles */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: #264d73;
+  font-size: 2.5rem;
+}
+h2,
+h3 {
+  color: #444;
+  font-weight: lighter;
+}
+h3 {
+  font-size: 1.3rem;
+}
+body {
+  padding: 0.5rem;
+  max-width: 1000px;
+  margin: auto;
+}
+@media (min-width: 600px) {
+  body {
+    padding: 2rem;
+  }
+}
+body,
+input[text] {
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+}
+a {
+  cursor: pointer;
+}
+
+/* Button CSS */
+button {
+  background-color: #648cd4;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  margin-right: 1rem; 
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+button:disabled {
+  background-color: #eee;
+  color: #aaa;
+  cursor: auto;
+}
+button.active {
+  background: #303030;
+  color: #fff;
+}
+
+/* Football League Table Styles */
+
+.footballLeagueTableClass {
+  font-family: verdana;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.footballLeagueTableClass th,
+.footballLeagueTableClass td {
+  border: 1px solid #ddd;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.footballLeagueTableClass tr {
+  background: #fdf6f6;
+}
+
+.footballLeagueTableClass tr:hover {
+  background: #7fc9ff;
+}
+
+.footballLeagueTableClass th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #303030;
+  color: #ffffff;
+}
+
+/* Football League Details Table Styles */
+
+.footballLeagueTableDiv {
+  font-family: verdana;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.footballLeagueTableDiv th,
+.footballLeagueTableDiv td {
+  border: 1px solid #ddd;
+  font-size: 12px;
+  padding: 8px;
+}
+
+.footballLeagueTableDiv tr {
+  background: #fdf6f6;
+}
+
+.footballLeagueTableDiv tr:hover {
+  background: #7fc9ff;
+}
+
+.footballLeagueTableDiv th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  background-color: #303030;
+  color: #ffffff;
+}
+
+/* Navigation link styles */
+.footballMenuLeaguesDiv{
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;  
+  background-color: #1976d2;
+  justify-content: SPACE-EVENLY;
+}
+
+nav a {
+  padding: 5px 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #e8e8e8;
+  color: #3d3d3d;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: #42545c;
+}
+nav a.active {
+  background-color: black;
+  color: white;
+}
+hr {
+  margin: 1.5rem 0;
+}
+input[type='text'] {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
